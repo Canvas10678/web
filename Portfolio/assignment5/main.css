@@ -1,0 +1,46 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style : normal;
+    font-weight: bold;
+}
+body{
+    background-color :indigo;
+    color: #000;
+    text-align: center;
+    font-size: xx-large;  
+    margin-top: 5%;
+    margin-block: 10%;
+    margin: auto;
+}
+button{
+    background-color:rgb(143, 143, 143);
+    border-radius: 45pc;
+    border-top: 20%;
+    border-bottom: 20%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.3%;
+}
+button:active{
+    background-color: rgb(68, 65, 65);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color:aliceblue;
+    margin-top: 0.3%;
+    border-top: 20%;
+    border-bottom: 20%;
+}
+textarea{
+    margin-top: 10%;
+    width: 40%;
+    height: 40%;
+    font-size: medium;
+    direction: ltr;
+    border: 10pc transparent;
+    border-radius: 20pc;
+    text-align: center;
+    outline: none;
+    line-height: 2;
+    position: relative;
+}

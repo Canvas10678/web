@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Work+Sans:wght@300;400;500&display=swap');
+*{
+    font-family:'Work Sans', sans-serif'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background: #E5c2AC;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 70px;
+    margin: auto;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+}
+.navbar .logo a {
+    color: #311c19;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: color 0.4s ease;
+}
+.navbar .logo a:hover {
+    color: rgb(141, 88, 18);
+}
+.navbar .Menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .Menu li a {
+    color: #311c19;
+    font-family: 'Roboto';
+    margin-left: 20px;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.4s ease;
+}
+.navbar .Menu li a:hover {
+    color: rgb(141, 88, 18);
+}
+section {
+    padding: 100px 18%;
+}
+body { 
+    background-color: #c4bcbd;
+}
+.home {
+    display: flex;
+    background: url("pic/Profile.jpg") no-repeat center ;   
+    background-size: 130vh 100vh;
+    height: 100vh;
+    width: 203.8vh;
+    min-width: 100px;
+    min-height: 300px;
+    color:#311c19;
+}
+.home .max-width {
+    margin: auto 0 auto 10px;
+    font-family: 'Roboto';
+    text-align: right;
+}
+.home .content .text1 {
+    font-size: 30px;
+    margin-left: -3px;
+}
+.home .content .text2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: -10px;
+}
+.home .content .text3 {
+    font-size: 40px;
+    margin:  5px 0;
+    margin-left: -3px;
+}
+.home .content .text3 span {
+    color:rgb(165, 24, 71);
+
+}
+.Social a {
+    justify-content: center;
+    font-size: 30px;
+    margin: 5px;
+    color: #311c19;
+}
+.Social a:hover{
+    transform: scale(1.1);
+    transition:  0.4s ease;
+    color: rgb(165, 24, 71);
+}
+.box-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;  
+    color:  #311c19;
+}
+.art-box{
+  padding: 40px 40px 40px 40px;
+  transition: ease-in 0.50s;
+  cursor: pointer;
+  font-size: larger;
+}
+.imgbox{
+    max-width: 100%;
+    margin-bottom: 20px;  
+}
+h2 ,  h4{
+    font-family: 'Roboto';
+}
+.Picture{
+    position: unset;
+    display: inline-grid
+}
+.Picture img{
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 2pc;
+}
+.Figma h2{
+    margin-top: 10px;
+    display: contents;
+}
+.UI img {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 2pc;
+}
+.Figma .UI button{
+    width: 15%;
+    height: 20%;
+    border-color: #311c19;
+    border-style: groove;
+    font-family: 'Roboto';    
+    background-color: #311c19;
+    border-radius: 2pc;
+    margin: 5px;
+    margin-top: 10px;
+}
+.Assignment {
+    display: contents;
+    margin-bottom: 20%;
+}
+.Assignment button {
+    width: 20%;
+    height: 30%;
+    border-color: #311c19;
+    border-style: groove;
+    font-family: 'Roboto';    
+    background-color: #311c19;
+    border-radius: 2pc;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button a{
+    color: aliceblue;
+    font-size: 13px;
+}
+button a:hover{
+    font-size: medium;
+    color: antiquewhite;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;  
+    color:  #311c19;
+}
+.pngbox{
+    padding: 40px 40px 40px 40px;
+    transition: ease-in 0.50s;
+    cursor: pointer;
+    font-size: larger;
+}
+.png{
+    max-width: 100%;
+    margin-bottom: 20px;  
+}
+.icon{
+    position: unset;
+    display: inline-grid
+}
+.icon img {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 2pc;
+}
+.aboutme {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: beige;
+}
+.me img {
+    height: auto;
+    width:  300px;
+}
+.about {
+    width: 550px;
+}
+.me {
+    width: 1000px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about h2 {
+    color: #311c19;
+    font-size: 60px;
+    text-transform:  capitalize;
+    margin-bottom: 20px;
+}
+.about p {
+    color:#7e563e;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    font-size: 19px;
+    margin-bottom: 45px;
+    font-family: 'Roboto';
+}
+p :hover {
+    color: chocolate;
+}
+#PD {
+    border-color: #311c19;
+    border-radius: 8pc;
+    border-style: groove;
+}
+.Pic img {
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2pc;
+}
+.Pic h2 {
+    font-size: 20px;
+}
+.back button{
+    width: 5%;
+    height: 30%;
+    border-color: #311c19;
+    border-style: groove;
+    font-family: 'Roboto';    
+    background-color: #311c19;
+    border-radius: 2pc;
+    margin: 5px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    justify-items: center;
+}
+.link {
+    display: grid;   
+}
+.link a {
+    color: aliceblue;
+    border-color: #311c19;
+    border-style: groove;
+    font-family: 'Roboto';    
+    background-color: #311c19;
+    border-radius: 2pc;
+    margin: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ref-link {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.link a:hover {
+    font-size: medium;
+    color: antiquewhite;
+}
+/* Responsive */
+@media only screen and (max-width : 1600px){
+    .navbar {
+       padding: 20px 3%;
+       transition: .4s;
+    }
+    .navbar.sticky {
+       padding: 10px 3%;
+       transition: .4s;  
+    }
+    section {
+       padding: 70px 3%;
+       transition: .4s;
+    }
+}
+@media only screen and (max-width : 767px){
+     .navbar {
+        padding: 16px 3%;
+        transition: .4s;
+     }
+     .navbar.sticky {
+        padding: 10px 3%;
+        transition: .4s;  
+     }
+     section {
+        padding: 60px 3%;
+        transition: .4s;
+     }
+     .home .max-width {
+        width: 95%;
+        padding-left: 20%;
+     }
+     .aboutme {
+        width: 95%;
+     }
+}
+.work {
+    background-color: white;
+}
+.Skill {
+    background-color: white;
+}  
+.ref {
+    background-color: white;
+}
+    
+
